@@ -55,7 +55,7 @@ if __name__ == '__main__':
     screen = pygame.display.set_mode(size)
     all_sprites = pygame.sprite.Group()
 
-    for i in range(30):
+    for i in range(20):
         Bomb()
 
     running = True
