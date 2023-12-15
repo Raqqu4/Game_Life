@@ -68,7 +68,7 @@ if __name__ == '__main__':
     player, level_x, level_y = generate_level(load_level('map01.txt'))
 
     size = (level_x + 1) * tile_width, (level_y + 1) * tile_height
-    screen = pygame.display.set_mode()
+    screen = pygame.display.set_mode(size)
     camera = Camera()
     while running:
         screen.fill(pygame.Color('black'))
